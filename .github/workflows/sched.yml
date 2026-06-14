@@ -1,0 +1,14 @@
+name : cronjob
+
+on:
+  schedule:
+    - cron: '18 6 * * *'  # Runs every day at midnight
+
+jobs:
+  
+  Backup:
+  
+    runs-on: ubuntu-latest
+
+    steps:
+      - run: echo "Running backup job..."
