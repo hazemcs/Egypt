@@ -2,10 +2,10 @@ name : cronjob
 
 on:
   schedule:
-    - cron: '18 6 * * *'  # Runs every day at midnight
+    - cron: '* * * * *'  # This cron expression runs the job every minute
 
 jobs:
-  
+
   Backup:
   
     runs-on: ubuntu-latest
