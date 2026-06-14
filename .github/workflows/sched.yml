@@ -1,8 +1,9 @@
 name : cronjob
 
 on:
+
   schedule:
-    - cron: '* * * * *'  # This cron expression runs the job every minute
+    - cron: '* * * * *'
 
 jobs:
 
